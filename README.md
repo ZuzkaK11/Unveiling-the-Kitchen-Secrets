@@ -50,7 +50,7 @@ Bipartitný graf zobrazuje vzťahy medzi regiónmi a ingredienciami na základe 
 | SouthernEuropean   | 290                 | 37038             | 4180           |
 | WesternEuropean    | 309                 | 21341             | 2659           |
 
-![Bipartitný graf zobrazujúci regióny (naľavo) a ingrendiencie (vpravo). Hrana vyjadruje prítomnosť ingrediencie aspoň v jednom recepte v danom regióne.](graf_ukazka.png)
+![Bipartitný graf zobrazujúci regióny (naľavo) a ingrendiencie (vpravo). Hrana vyjadruje prítomnosť ingrediencie aspoň v jednom recepte v danom regióne.](images/graf_ukazka.png)
 
 ---
 
