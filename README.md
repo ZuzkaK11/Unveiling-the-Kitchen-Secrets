@@ -64,9 +64,9 @@ Pri pohľade na bipartitný graf a základné štatistiky regiónov a ingredienc
 - Druhým dôvodom môžu byť ich menej prísne potravinové regulácie. V USA platí princíp, že látka môže byť používaná, pokiaľ neexistuje dôkaz o jej škodlivosti (tzv. GRAS – generally recognized as safe). Naopak, Európska únia uplatňuje princíp predbežnej opatrnosti, kde sa látka musí preukázateľne považovať za bezpečnú, aby mohla byť schválená. Tento rozdiel sa netýka samotných ingrediencií, ale chemických látok, ktoré sa v nich môžu nachádzať – napríklad konzervanty, farbivá či sladidlá. Tak sa môže stať, že určitá ingrediencia (napr. konkrétny druh sladidla alebo dochucovadla) je v Európe obmedzená alebo zakázaná práve kvôli zložkám, ktoré obsahuje, zatiaľ čo v USA je bežne povolená. To môže viesť k väčšiemu počtu rôznych ingrediencií evidovaných v amerických receptoch. [Time, 2024](https://time.com/7210717/food-additives-us-fda-banned-europe/), [CBS News, 2023](https://www.cbsnews.com/)
 - Tretím možným faktorom je samotný dataset. Je možné, že dataset obsahuje výrazne viac severoamerických receptov v porovnaní s ostatnými regiónmi, čo prirodzene zvyšuje aj zaznamenaný počet tamojších ingrediencií. Tento dátový nepomer môže byť spôsobený vyššou digitalizáciou, popularitou amerických receptov online či angličtinou ako dominantným jazykom v dostupných zdrojoch.
 
-![Porovnanie počtu receptov a unikátnych ingrediencií pre jednotlivé regióny](bar_plot.png)
+![Porovnanie počtu receptov a unikátnych ingrediencií pre jednotlivé regióny](images/bar_plot.png)
 
-![Regióny na základe počtu receptov a unikátnych ingrediencií a celkového počtu ingrediencií](bubble.png)
+![Regióny na základe počtu receptov a unikátnych ingrediencií a celkového počtu ingrediencií](images/bubble.png)
 
 ---
 
@@ -74,11 +74,11 @@ Pri pohľade na bipartitný graf a základné štatistiky regiónov a ingredienc
 
 Graf zobrazuje normalizovanú distribúciu počtu ingrediencií na recept v rôznych regiónoch. Na osi x pozorujeme počet ingrediencií na recept, zatiaľ čo os y zobrazuje frekvenciu výskytu daného počtu ingrediencií v danom regióne. Každá krivka zodpovedá inému regiónu a je zafarbená podľa priemeru počtu ingrediencií v danom regióne.  
 
-![Normalizovaná distribúcia počtu ingrediencií na recept v regiónoch](pocet_recept.png)
+![Normalizovaná distribúcia počtu ingrediencií na recept v regiónoch](images/pocet_recept.png)
 
 Pozorujeme, že regióny Juhovýchodná Ázia a Afrika majú tendenciu používať v priemere väčší počet ingrediencií na recept, pričom ich distribúcie sú širšie, s výraznejšími vrcholmi v oblasti vyšších počtov ingrediencií. Naopak, regióny ako Severná Európa a Západná Európa majú tendenciu používať menší počet ingrediencií.  
 
-![Top 5 ingrediencií naprieč regiónmi](top5.png)
+![Top 5 ingrediencií naprieč regiónmi](images/top5.png)
 
 ---
 
@@ -97,11 +97,11 @@ $$
 
 Hierarchické zhlukovanie ukázalo tri prirodzené skupiny kuchýň.
 
-![Hierarchické zhlukovanie regiónov podľa Jaccardovej vzdialenosti ingrediencií](dendrogram.png)
+![Hierarchické zhlukovanie regiónov podľa Jaccardovej vzdialenosti ingrediencií](images/dendrogram.png)
 
-![Bipartitný graf regióny vs. ingrediencie (farby podľa dominantného regiónu)](1_SV.png)
+![Bipartitný graf regióny vs. ingrediencie (farby podľa dominantného regiónu)](images/1_SV.png)
 
-![Suroviny v jednotlivých regiónoch](regiony_vs_ingrediencie_sun.png)
+![Suroviny v jednotlivých regiónoch](images/regiony_vs_ingrediencie_sun.png)
 
 ---
 
@@ -118,9 +118,9 @@ Farebné vlastnosti uzlov:
 - **Centralita blízkosti (fialová):** Najvyššia centralita má cesnak, čo naznačuje jeho časté spojenie s inými ingredienciami.  
 - **Lokálny zhlukový koeficient (červené okraje):** Napr. vegetable oil, rice, fish, typické pre konkrétne regióny.  
 
-![Projekcia bipartitného grafu na ingrediencie](graf_centrality.png)
+![Projekcia bipartitného grafu na ingrediencie](images/graf_centrality.png)
 
-![Prehľad štatistických metrík pre jednotlivé vrcholy](graf_prehlad.png)
+![Prehľad štatistických metrík pre jednotlivé vrcholy](images/graf_prehlad.png)
 
 ---
 
