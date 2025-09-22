@@ -1,6 +1,6 @@
-# Odhaľovanie tajomstiev kuchyne
+# Unveiling the Kitchen Secrets
 
-**Autorky:** Kristína Galková, Jana Poľašková, Simona Bednariková, Zuzana Kovačová
+Semestrálny projekt z princípov dátovej vedy v 3. ročníku. Skupina: Galková, Polašková, Bednáriková, Kováčová
 ---
 
 ## Úvod
