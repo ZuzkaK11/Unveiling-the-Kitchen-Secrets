@@ -2,7 +2,7 @@
 
 ---
 
-Semestrálny projekt z princípov dátovej vedy v 3. ročníku. Skupina: Galková, Polašková, Bednáriková, Kováčová
+Semestrálny projekt z predmetu Veda o sieťach v 3. ročníku. Skupina: Galková, Polašková, Bednáriková, Kováčová
 
 ---
 
